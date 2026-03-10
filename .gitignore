@@ -7,7 +7,7 @@ __pycache__/
 build/
 dist/
 
-# exe
+# executables
 *.exe
 
 # selenium
