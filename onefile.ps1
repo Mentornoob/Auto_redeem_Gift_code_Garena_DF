@@ -1,0 +1,2 @@
+& d:\Source_code\Pythons\Auto_gift_code_DF\Auto_gift_code_DF\.venv\Scripts\Activate.ps1
+pyinstaller --onefile --noconsole --hidden-import=selenium --hidden-import=selenium.webdriver --hidden-import=selenium.webdriver.chrome --hidden-import=selenium.webdriver.chrome.webdriver main.py
