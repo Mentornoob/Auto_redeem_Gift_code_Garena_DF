@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# build files
+dist/
+build/
+
+# user files
+cookies.json
+Gift_code_list.txt
+
+# exe files
+*.exe
+
+# vscode
+.vscode/
+
+# system
+.DS_Store
