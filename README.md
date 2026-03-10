@@ -77,17 +77,28 @@ https://chromewebstore.google.com/detail/j2team-cookies/okpidcojinmlaakglciglbpc
 
 Steps:
 
-1. Open redeem page
+1. Open the redeem page
 
 ```
 https://redeem.df.garena.sg
 ```
 
-2. Login to your game account  
-3. Click **J2TEAM Cookies extension**  
-4. Export cookies as **JSON file**  
-5. Save it to your computer  
+2. Log in to your game account  
+3. Click the **J2TEAM Cookies extension**  
+4. Export cookies as a **JSON file**  
+5. Save the file to your computer  
 
+If you play on another server (Steam, China, etc.), go to your server's redeem page and follow the same steps.
+
+You must also modify the redeem URL in **main.py**.
+
+Find this line (around line 34):
+
+```python
+driver.get("https://redeem.df.garena.sg")
+```
+
+and replace it with the redeem website of your server.
 ---
 
 ## Create Gift Code File
